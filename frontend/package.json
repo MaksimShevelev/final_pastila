@@ -2,6 +2,9 @@
   "name": "frontend",
   "version": "0.0.0",
   "private": true,
+  "engines": {
+    "node": "22.x"
+  },
   "type": "module",
   "scripts": {
     "start": "vite",
@@ -10,6 +13,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^7.3.0",
+    "@fortawesome/react-fontawesome": "^3.4.0",
     "bootstrap": "^5.3.7",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
